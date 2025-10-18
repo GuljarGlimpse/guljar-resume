@@ -60,6 +60,13 @@
             flex-shrink: 0;
         }
 
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
         .name {
             font-size: 46px; /* increased from 36px */
             font-weight: 300;
@@ -347,6 +354,7 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 15px;
         }
+        
 
         .portfolio-item {
             display: flex;
@@ -476,7 +484,7 @@
     <div class="page">
         <div class="header">
             <div class="profile-photo">
-                <img src="gfrf1.jpg">
+               <img src="gfrf1.jpg" alt="Guljar Hosen">
             </div>
             <div class="header-content">
                 <h1 class="name">Guljar Hosen</h1>
